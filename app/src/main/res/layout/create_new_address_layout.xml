@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+<android.support.design.widget.TextInputLayout
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginBottom="15dp"
+    android:hint="Họ tên người nhận"
+    android:id="@+id/IDPart">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameET"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:nextFocusForward="@+id/emailET"
+        android:singleLine="true"
+        />
+</android.support.design.widget.TextInputLayout>
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginBottom="15dp"
+    android:hint="Địa chỉ">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addressET"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:nextFocusForward="@+id/passwordET"
+        android:singleLine="true"
+
+        />
+</android.support.design.widget.TextInputLayout>
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginBottom="15dp"
+    android:hint="Số điện thoại">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneET"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:nextFocusForward="@+id/phoneNumberET"
+        android:singleLine="true"
+        />
+</android.support.design.widget.TextInputLayout>
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginBottom="15dp"
+    android:hint="Ghi chú">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noteET"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:singleLine="true"
+        />
+</android.support.design.widget.TextInputLayout>
+</LinearLayout>

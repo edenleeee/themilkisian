@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_row_background"
+        android:id="@+id/view_background"
+        >
+        <ImageView
+            android:id="@+id/delete_icon"
+            android:layout_width="@dimen/ic_delete"
+            android:layout_height="@dimen/ic_delete"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padd_10"
+            android:src="@drawable/ic_delete_white24dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padd_10"
+            android:layout_toLeftOf="@id/delete_icon"
+            android:text="DELETE"
+            android:textColor="#fff"
+            android:textSize="13dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:background="@color/white"
+            android:id="@+id/view_foreground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/cartProductPicture"
+                android:src="@drawable/logo"/>
+            <TextView
+                android:id="@+id/cartProductName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/whitolution"
+                android:textSize="20dp"
+                android:layout_toRightOf="@+id/cartProductPicture"
+                android:layout_marginTop="10dp"
+                />
+            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                android:id="@+id/cartNumberBtn"
+                android:layout_toRightOf="@+id/cartProductPicture"
+                android:layout_below="@+id/cartProductName"
+                android:layout_marginTop="15dp"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                app:backGroundColor="@color/light_gray"
+                app:textColor="@color/red1"/>
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:id="@+id/cartProductPrice"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:text="$3"
+                android:gravity="center"
+                android:textColor="@color/red1"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeMaxTextSize="15sp"
+                android:background="@drawable/text_round"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+</FrameLayout>

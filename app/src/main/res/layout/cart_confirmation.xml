@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sugarPart"
+        android:text="How Sweet ?"/>
+
+    <RadioGroup
+        android:layout_below="@id/sugarPart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sugarPickPart">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/yes_sugar"
+            android:text="Có Đường"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/no_sugar"
+            android:text="Không Đường"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_below="@id/sugarPickPart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hot or cold ?"
+        android:id="@+id/hotColdPart"/>
+
+    <RadioGroup
+        android:layout_below="@id/hotColdPart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hotPickPart">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/isHot"
+            android:text="Ấm"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/isCold"
+            android:text="Lạnh"/>
+    </RadioGroup>
+
+
+
+</RelativeLayout>

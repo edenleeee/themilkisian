@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "275728816745",
+    "firebase_url": "https://themilkisian-b30d6.firebaseio.com",
+    "project_id": "themilkisian-b30d6",
+    "storage_bucket": "themilkisian-b30d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275728816745:android:b60d5a0403e66fc8",
+        "android_client_info": {
+          "package_name": "com.example.leeso.themilkisian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275728816745-qp045d0hhjo6if7m3i7ui95lu5c74r7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcrn1t0qXuMqqvwb2i2fEgfgL8JN_35_o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275728816745-qp045d0hhjo6if7m3i7ui95lu5c74r7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

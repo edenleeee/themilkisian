@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/junior_backend"
+        />
+    <item
+        android:title="@string/mid_backend"
+        />
+    <item
+        android:title="@string/senior_backend"
+        />
+    <item
+        android:title="@string/junior_frontend"
+        />
+    <item
+        android:title="@string/mid_frontend"
+        />
+    <item
+        android:title="@string/senior_frontend"
+        />
+    <item
+        android:title="@string/junior_data_engineer"
+        />
+    <item
+        android:title="@string/mid_data_engineer"
+        />
+    <item
+        android:title="@string/senior_data_engineer"
+        />
+</menu>

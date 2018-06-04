@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TheMilkisian</string>
+    <string name="whitolution">Whitolution</string>
+    <string name="junior_backend">Junior Backend</string>
+    <string name="mid_backend">Mid Backend</string>
+    <string name="senior_backend">Senior Backend</string>
+    <string name="junior_frontend">Junior Frontend</string>
+    <string name="mid_frontend">Mid Frontend</string>
+    <string name="senior_frontend">Senior Frontend</string>
+    <string name="junior_data_engineer">Junior Data Engineer</string>
+    <string name="mid_data_engineer">Mid Data Engineer</string>
+    <string name="senior_data_engineer">Senior Data Engineer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="ho_c_ng_nh_p_v_i">Hoặc đăng nhập với</string>
+    <string name="login_with_google">Login With Google</string>
+    <string name="email_s_di_n_tho_i">Email/Số diện thoại</string>
+    <string name="ng_y_sinh">Ngày Sinh</string>
+    <string name="h_t_n">Họ tên</string>
+    <string name="email">Email</string>
+    <string name="s_i_n_tho_i">Số điện thoại</string>
+    <string name="facebook_app_id">2001133536624681</string>
+    <string name="fb_login_protocol_scheme">fb2001133536624681</string>
+    <string name="describe">Describe :</string>
+    <string name="s_l_u_a_ch">Sổ lưu địa chỉ</string>
+    <string name="choose_address">Choose Address</string>
+</resources>
